@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Products - My Beauty Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Skincare Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-collection">
+        <h2>Explore Our Skincare Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\skin-care1.jpg" alt="Skin Care 1">
+                <h3>Vitamin C Serum</h3>
+                <p>Brighten and hydrate your skin with our premium Vitamin C serum.</p>
+                <p class="price">850/-</p>
+                <button class="add-to-cart" onclick="addToCart('Vitamin C Serum', '850', 'E:\skin-care1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care2.jpg" alt="Skin Care 2">
+                <h3>Moisturizing Cream</h3>
+                <p>Deep hydration with shea butter and aloe vera.</p>
+                <p class="price">700/-</p>
+                <button class="add-to-cart" onclick="addToCart('Moisturizing Cream', '700', 'E:\skin-care2.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care3.jpg" alt="Skin Care 3">
+                <h3>Hydrating Face Mask</h3>
+                <p>Rejuvenate your skin with our ultra-hydrating face mask.</p>
+                <p class="price">550/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hydrating Face Mask', '550', 'E:\skin-care3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care4.jpg" alt="Skin Care 4">
+                <h3>Retinol Night Cream</h3>
+                <p>Turn back time with our retinol-enriched night cream.</p>
+                <p class="price">1200/-</p>
+                <button class="add-to-cart" onclick="addToCart('Retinol Night Cream', '1200', 'E:\skin-care4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care5.jpg" alt="Skin Care 5">
+                <h3>SPF 50 Sunscreen</h3>
+                <p>Protect your skin with our broad-spectrum sunscreen.</p>
+                <p class="price">850/-</p>
+                <button class="add-to-cart" onclick="addToCart('SPF 50 Sunscreen', '850', 'E:\skin-care5.jpg')">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+<script src="cart.js"></script>
+</body>
+</html>

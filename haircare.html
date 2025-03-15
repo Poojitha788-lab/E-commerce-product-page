@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haircare Products - My Beauty Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Haircare Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-collection">
+        <h2>Explore Our Haircare Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\hair-care1.jpg" alt="Hair Care 1">
+                <h3>Shampoo for Damaged Hair</h3>
+                <p>Repair and strengthen your hair with our nourishing shampoo.</p>
+                <p class="price">500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Shampoo for Damaged Hair', '500/-', 'E:/hair-care1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care2.jpg" alt="Hair Care 2">
+                <h3>Conditioner for Dry Hair</h3>
+                <p>Hydrate and smooth dry hair with our deep-conditioning formula.</p>
+                <p class="price">550/-</p>
+                <button class="add-to-cart" onclick="addToCart('Conditioner for Dry Hair', '550/-', 'E:/hair-care2.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care3.jpg" alt="Hair Care 3">
+                <h3>Leave-In Hair Serum</h3>
+                <p>Frizz control and shine in a single step with our leave-in serum.</p>
+                <p class="price">800/-</p>
+                <button class="add-to-cart" onclick="addToCart('Leave-In Hair Serum', '800/-', 'E:/hair-care3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care4.jpg" alt="Hair Care 4">
+                <h3>Hair Growth Oil</h3>
+                <p>Promote stronger, thicker hair with our natural hair growth oil.</p>
+                <p class="price">900/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hair Growth Oil', '900/-', 'E:/hair-care4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care5.jpg" alt="Hair Care 5">
+                <h3>Shine Spray</h3>
+                <p>Instant shine and smoothness for your hair with our shine spray.</p>
+                <p class="price">650/-</p>
+                <button class="add-to-cart" onclick="addToCart('Shine Spray', '650/-', 'E:/hair-care5.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+<script src="cart.js"></script>
+</body>
+</html>

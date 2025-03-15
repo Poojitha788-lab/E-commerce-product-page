@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text for readability */
+    background-color: #fff; /* White background for a clean look */
+    background-image: url('images/beauty-background.jpg'); /* Your beauty-related image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #d32f2f; /* Red shade for beauty store branding */
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Product Categories Section */
+.categories {
+    padding: 20px;
+}
+
+.category-grid {
+    display: flex; /* Flexbox layout for a neat horizontal arrangement */
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for responsive design */
+    gap: 15px;
+    padding: 20px;
+}
+
+.category {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.category:hover {
+    transform: scale(1.05); /* Makes category scale when hovered */
+}
+
+h3 {
+    margin-top: 10px;
+    color: #e44d26; /* A warm red tone for category text */
+}
+
+/* Beauty Product Collection Page */
+.product-collection {
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex; /* Flexbox layout for neat horizontal arrangement */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    width: 200px; /* Fixed width for consistency */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.product:hover {
+    transform: scale(1.05); /* Zoom effect for products on hover */
+}
+
+/* Price Styling */
+.price {
+    font-weight: bold;
+    color: #e44d26; /* Warm red for price */
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background-color: #e44d26; /* Red color to align with store theme */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #ff6347; /* Lighter red when hovered */
+}
+
+/* About Page Styling */
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section h3 {
+    font-size: 22px;
+    color: #222;
+    margin-top: 20px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    font-size: 18px;
+    color: #666;
+    margin: 8px 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+/* Cart Container Styling */
+.cart-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.remove-from-cart {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Checkout Button Styling */
+.checkout-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.checkout-button button {
+    background-color: #e44d26; /* Button color */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button button:hover {
+    background-color: #ff6347; /* Button hover effect */
+}

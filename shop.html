@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - My Beauty Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shop All Beauty Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-collection">
+        <h2>Explore Our Beauty Products</h2>
+
+        <!-- Skin Care Products -->
+        <h3>Skin Care</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\skin-care1.jpg" alt="Skin Care 1">
+                <h3>Vitamin C Serum</h3>
+                <p>Brighten and hydrate your skin with our premium Vitamin C serum.</p>
+                <p class="price">850/-</p>
+                <button class="add-to-cart" onclick="addToCart('Vitamin C Serum', '850', 'E:\skin-care1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care2.jpg" alt="Skin Care 2">
+                <h3>Moisturizing Cream</h3>
+                <p>Deep hydration with shea butter and aloe vera.</p>
+                <p class="price">700/-</p>
+                <button class="add-to-cart" onclick="addToCart('Moisturizing Cream', '700', 'E:\skin-care2.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\skin-care3.jpg" alt="Skin Care 3">
+                <h3>Hydrating Face Mask</h3>
+                <p>Rejuvenate your skin with our ultra-hydrating face mask.</p>
+                <p class="price">550/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hydrating Face Mask', '550', 'E:\skin-care3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care4.jpg" alt="Skin Care 4">
+                <h3>Retinol Night Cream</h3>
+                <p>Turn back time with our retinol-enriched night cream.</p>
+                <p class="price">1200/-</p>
+                <button class="add-to-cart" onclick="addToCart('Retinol Night Cream', '1200', 'E:\skin-care4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\skin-care5.jpg" alt="Skin Care 5">
+                <h3>SPF 50 Sunscreen</h3>
+                <p>Protect your skin with our broad-spectrum sunscreen.</p>
+                <p class="price">850/-</p>
+                <button class="add-to-cart" onclick="addToCart('SPF 50 Sunscreen', '850', 'E:\skin-care5.jpg')">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Hair Care Products -->
+        <h3>Hair Care</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\hair-care1.jpg" alt="Hair Care 1">
+                <h3>Shampoo for Damaged Hair</h3>
+                <p>Repair and strengthen your hair with our nourishing shampoo.</p>
+                <p class="price">500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Shampoo for Damaged Hair', '500/-', 'E:/hair-care1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care2.jpg" alt="Hair Care 2">
+                <h3>Conditioner for Dry Hair</h3>
+                <p>Hydrate and smooth dry hair with our deep-conditioning formula.</p>
+                <p class="price">550/-</p>
+                <button class="add-to-cart" onclick="addToCart('Conditioner for Dry Hair', '550/-', 'E:/hair-care2.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care3.jpg" alt="Hair Care 3">
+                <h3>Leave-In Hair Serum</h3>
+                <p>Frizz control and shine in a single step with our leave-in serum.</p>
+                <p class="price">800/-</p>
+                <button class="add-to-cart" onclick="addToCart('Leave-In Hair Serum', '800/-', 'E:/hair-care3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care4.jpg" alt="Hair Care 4">
+                <h3>Hair Growth Oil</h3>
+                <p>Promote stronger, thicker hair with our natural hair growth oil.</p>
+                <p class="price">900/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hair Growth Oil', '900/-', 'E:/hair-care4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\hair-care5.jpg" alt="Hair Care 5">
+                <h3>Shine Spray</h3>
+                <p>Instant shine and smoothness for your hair with our shine spray.</p>
+                <p class="price">650/-</p>
+                <button class="add-to-cart" onclick="addToCart('Shine Spray', '650/-', 'E:/hair-care5.jpg')">Add to Cart</button>
+
+            </div>
+        </div>
+
+        <!-- Makeup Products -->
+        <h3>Makeup</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\makeup1.jpg" alt="Makeup 1">
+                <h3>Full Coverage Foundation</h3>
+                <p>Achieve a flawless finish with our full-coverage foundation.</p>
+                <p class="price">1200/-</p>
+                <button class="add-to-cart" onclick="addToCart('Full Coverage Foundation', '1200/-', 'E:/makeup1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup2.jpg" alt="Makeup 2">
+                <h3>Hydrating Primer</h3>
+                <p>Perfect for a smooth base and long-lasting makeup.</p>
+                <p class="price">950/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hydrating Primer', '950/-', 'E:/makeup2.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup3.jpg" alt="Makeup 3">
+                <h3>Highlighter Stick</h3>
+                <p>Glow and illuminate your face with our highlighter stick.</p>
+                <p class="price">800/-</p>
+                <button class="add-to-cart" onclick="addToCart('Highlighter Stick', '800/-', 'E:/makeup3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup4.jpg" alt="Makeup 4">
+                <h3>Bold Lipstick</h3>
+                <p>Stand out with our long-lasting bold lipstick shades.</p>
+                <p class="price">650/-</p>
+                <button class="add-to-cart" onclick="addToCart('Bold Lipstick', '650/-', 'E:/makeup4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup5.jpg" alt="Makeup 5">
+                <h3>Eyeshadow Palette</h3>
+                <p>Achieve stunning eye looks with our versatile eyeshadow palette.</p>
+                <p class="price">1500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Eyeshadow Palette', '1500/-', 'E:/makeup5.jpg')">Add to Cart</button>
+
+            </div>
+        </div>
+
+        <!-- Fragrance Products -->
+        <h3>Fragrance</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\fragrance1.jpg" alt="Fragrance 1">
+                <h3>Floral Perfume</h3>
+                <p>A refreshing floral scent perfect for all-day wear.</p>
+                <p class="price">2000/-</p>
+                <button class="add-to-cart" onclick="addToCart('Floral Perfume', '2000/-', 'E:/fragrance1.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance2.jpg" alt="Fragrance 2">
+                <h3>Sweet Vanilla Body Mist</h3>
+                <p>A sweet, comforting vanilla fragrance for your body.</p>
+                <p class="price">850/-</p>
+               <button class="add-to-cart" onclick="addToCart('Sweet Vanilla Body Mist', '850/-', 'E:/fragrance2.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance3.jpg" alt="Fragrance 3">
+                <h3>Woody Cologne</h3>
+                <p>A rich and earthy fragrance with woody notes.</p>
+                <p class="price">2500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Woody Cologne', '2500/-', 'E:/fragrance3.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance4.jpg" alt="Fragrance 4">
+                <h3>Romantic Rose Perfume</h3>
+                <p>A sweet, romantic rose scent that lasts all day.</p>
+                <p class="price">2200/-</p>
+               <button class="add-to-cart" onclick="addToCart('Romantic Rose Perfume', '2200/-', 'E:/fragrance4.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance5.jpg" alt="Fragrance 5">
+                <h3>Fresh Citrus Room Spray</h3>
+                <p>Refresh your space with our invigorating citrus room spray.</p>
+                <p class="price">650/-</p>
+                <button class="add-to-cart" onclick="addToCart('Fresh Citrus Room Spray', '650/-', 'E:/fragrance5.jpg')">Add to Cart</button>
+
+
+            </div>
+        </div>
+
+        <!-- Beauty Tools -->
+        <h3>Beauty Tools</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\tools1.jpg" alt="Tool 1">
+                <h3>Facial Roller</h3>
+                <p>Enhance circulation and reduce puffiness with our facial roller.</p>
+                <p class="price">900/-</p>
+               <button class="add-to-cart" onclick="addToCart('Facial Roller', '900', 'E:\tools1.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\tools2.jpg" alt="Tool 2">
+                <h3>Makeup Brush Set</h3>
+                <p>Perfect set of brushes for flawless makeup application.</p>
+                <p class="price">1200/-</p>
+                <button class="add-to-cart" onclick="addToCart('Makeup Brush Set', '1200', 'E:\tools2.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\tools3.jpg" alt="Tool 3">
+                <h3>LED Mask</h3>
+                <p>Rejuvenate your skin with this LED light therapy mask.</p>
+                <p class="price">3000/-</p>
+                <button class="add-to-cart" onclick="addToCart('LED Mask', '3000', 'E:\tools3.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\tools4.jpg" alt="Tool 4">
+                <h3>Hair Straightener</h3>
+                <p>Straighten your hair with ease using our high-quality straightener.</p>
+                <p class="price">1500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hair Straightener', '1500', 'E:\tools4.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\tools5.jpg" alt="Tool 5">
+                <h3>Electric Facial Brush</h3>
+                <p>Deep cleanse your skin with this electric facial brush.</p>
+                <p class="price">2000/-</p>
+               <button class="add-to-cart" onclick="addToCart('Electric Facial Brush', '2000', 'E:\tools5.jpg')">Add to Cart</button>
+
+            </div>
+        </div>
+    </section>
+<script src="cart.js"></script>
+</body>
+</html>

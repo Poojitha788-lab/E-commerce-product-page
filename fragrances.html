@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrances - My Beauty Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fragrances</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-collection">
+        <h2>Explore Our Fragrance Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\fragrance1.jpg" alt="Fragrance 1">
+                <h3>Floral Perfume</h3>
+                <p>A refreshing floral scent perfect for all-day wear.</p>
+                <p class="price">2000/-</p>
+               <button class="add-to-cart" onclick="addToCart('Floral Perfume', '2000/-', 'E:/fragrance1.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance2.jpg" alt="Fragrance 2">
+                <h3>Sweet Vanilla Body Mist</h3>
+                <p>A sweet, comforting vanilla fragrance for your body.</p>
+                <p class="price">850/-</p>
+               <button class="add-to-cart" onclick="addToCart('Sweet Vanilla Body Mist', '850/-', 'E:/fragrance2.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance3.jpg" alt="Fragrance 3">
+                <h3>Woody Cologne</h3>
+                <p>A rich and earthy fragrance with woody notes.</p>
+                <p class="price">2500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Woody Cologne', '2500/-', 'E:/fragrance3.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance4.jpg" alt="Fragrance 4">
+                <h3>Romantic Rose Perfume</h3>
+                <p>A sweet, romantic rose scent that lasts all day.</p>
+                <p class="price">2200/-</p>
+               <button class="add-to-cart" onclick="addToCart('Romantic Rose Perfume', '2200/-', 'E:/fragrance4.jpg')">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="E:\fragrance5.jpg" alt="Fragrance 5">
+                <h3>Fresh Citrus Room Spray</h3>
+                <p>Refresh your space with our invigorating citrus room spray.</p>
+                <p class="price">650/-</p>
+                <button class="add-to-cart" onclick="addToCart('Fresh Citrus Room Spray', '650/-', 'E:/fragrance5.jpg')">Add to Cart</button>
+
+            </div>
+
+        </div>
+    </section>
+<script src="cart.js"></script>
+</body>
+</html>

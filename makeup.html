@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Products - My Beauty Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Makeup Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-collection">
+        <h2>Explore Our Makeup Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="E:\makeup1.jpg" alt="Makeup 1">
+                <h3>Full Coverage Foundation</h3>
+                <p>Achieve a flawless finish with our full-coverage foundation.</p>
+                <p class="price">1200/-</p>
+                <button class="add-to-cart" onclick="addToCart('Full Coverage Foundation', '1200/-', 'E:/makeup1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup2.jpg" alt="Makeup 2">
+                <h3>Hydrating Primer</h3>
+                <p>Perfect for a smooth base and long-lasting makeup.</p>
+                <p class="price">950/-</p>
+                <button class="add-to-cart" onclick="addToCart('Hydrating Primer', '950/-', 'E:/makeup2.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup3.jpg" alt="Makeup 3">
+                <h3>Highlighter Stick</h3>
+                <p>Glow and illuminate your face with our highlighter stick.</p>
+                <p class="price">800/-</p>
+                <button class="add-to-cart" onclick="addToCart('Highlighter Stick', '800/-', 'E:/makeup3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup4.jpg" alt="Makeup 4">
+                <h3>Bold Lipstick</h3>
+                <p>Stand out with our long-lasting bold lipstick shades.</p>
+                <p class="price">650/-</p>
+                <button class="add-to-cart" onclick="addToCart('Bold Lipstick', '650/-', 'E:/makeup4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="E:\makeup5.jpg" alt="Makeup 5">
+                <h3>Eyeshadow Palette</h3>
+                <p>Achieve stunning eye looks with our versatile eyeshadow palette.</p>
+                <p class="price">1500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Eyeshadow Palette', '1500/-', 'E:/makeup5.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+<script src="cart.js"></script>
+</body>
+</html>
